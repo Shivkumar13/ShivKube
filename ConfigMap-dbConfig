@@ -1,0 +1,24 @@
+apiVersion: v1
+data:
+  db-host: localhost.example.com
+  db-name: kubernetes-objects
+  db-port: "3306"
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2021-05-30T11:38:09Z"
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:db-host: {}
+        f:db-name: {}
+        f:db-port: {}
+    manager: kubectl-create
+    operation: Update
+    time: "2021-05-30T11:38:09Z"
+  name: db-config
+  namespace: default
+  resourceVersion: "1167"
+  uid: 9af2e8ff-8695-42f3-977c-89d3fbd41a78
